@@ -13,7 +13,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <element signature="n#!!block;n#replaceLastThreeSymbols#0" />
+                <element signature="n#!!block;n#enterSpaces#0" />
+                <element signature="n#!!block;n#removeRepeatedSymbols#0" />
+                <element signature="n#!!block;n#getWordsQuantity#0" />
+                <element signature="n#!!block;n#remove#0" />
+                <element signature="n#!!block;n#reverse#0" />
+                <element signature="n#!!block;n#deleteLastWord#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="e#63#934#0" />
+                <element signature="e#1000#1892#0" />
+                <element signature="e#1953#2828#0" />
+                <element signature="e#2880#3694#0" />
+                <element signature="e#3753#4711#0" />
+                <element signature="e#4772#6337#0" />
+                <element signature="e#6399#8446#0" />
+                <element signature="e#8506#10083#0" />
+                <element signature="e#10145#12205#0" />
+                <element signature="e#12257#13131#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,14 +72,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/test.html" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/../HW_3_TDD/src/hw3/hw3.js" />
         <option value="$PROJECT_DIR$/../HW_3_TDD/tests/hw1/hw3.test.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
       </list>
     </option>
   </component>
@@ -49,12 +101,35 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HW_11_String" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW_11_String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW_11_String" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW_11_String" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW_11_String" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW_11_String" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HW_string 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../worker" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -86,11 +161,13 @@
       <workItem from="1552735498122" duration="20894000" />
       <workItem from="1552773939878" duration="2542000" />
       <workItem from="1552776562858" duration="29340000" />
+      <workItem from="1553004794457" duration="1824000" />
+      <workItem from="1553012228848" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52776000" />
+    <option name="totallyTimeSpent" value="55689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -104,14 +181,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Quokka" order="7" visible="true" weight="0.17021276" />
+      <window_info anchor="bottom" id="Quokka" order="7" visible="true" weight="0.17021276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -122,6 +198,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +213,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="n#!!block;n#replaceLastThreeSymbols#0" />
+            <element signature="n#!!block;n#enterSpaces#0" />
+            <element signature="n#!!block;n#removeRepeatedSymbols#0" />
+            <element signature="n#!!block;n#getWordsQuantity#0" />
+            <element signature="n#!!block;n#remove#0" />
+            <element signature="n#!!block;n#reverse#0" />
+            <element signature="n#!!block;n#deleteLastWord#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -158,14 +251,6 @@
             <element signature="e#8506#10083#0" />
             <element signature="e#10145#12205#0" />
             <element signature="e#12257#13131#0" />
-            <element signature="e#12471#15512#0" />
-            <element signature="e#15573#16725#0" />
-            <element signature="e#16774#17928#0" />
-            <element signature="e#17977#19131#0" />
-            <element signature="e#18832#21873#0" />
-            <element signature="e#21564#22532#0" />
-            <element signature="e#22405#23220#0" />
-            <element signature="e#23538#24525#0" />
           </folding>
         </state>
       </provider>
@@ -182,17 +267,7 @@
         <state relative-caret-position="1357">
           <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding>
-            <element signature="n#!!block;n#getEngAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getEngAlphabetLowCaseReverse#0" />
-            <element signature="n#!!block;n#getRusAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getASCIINmbers#0" />
-            <element signature="n#!!block;n#getASCIIPrintsSimbals#0" />
-            <element signature="n#!!block;n#parseIntNumberToString#0" />
-            <element signature="n#!!block;n#parseFloatNumberToString#0" />
-            <element signature="n#!!block;n#parseStringTointNumber#0" />
-            <element signature="n#!!block;n#parseStringToFloatNumber#0" />
-            <element signature="n#!!block;n#checkLengthOfLessElement#0" />
-            <element signature="n#!!block;n#replaceLastThreeSymbals#0" />
+            <element signature="n#!!block;n#replaceLastThreeSymbols#0" />
             <element signature="n#!!block;n#enterSpaces#0" />
             <element signature="n#!!block;n#removeRepeatedSymbols#0" />
             <element signature="n#!!block;n#getWordsQuantity#0" />
@@ -215,17 +290,7 @@
         <state relative-caret-position="1955">
           <caret line="85" column="20" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="20" />
           <folding>
-            <element signature="n#!!block;n#getEngAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getEngAlphabetLowCaseReverse#0" />
-            <element signature="n#!!block;n#getRusAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getASCIINmbers#0" />
-            <element signature="n#!!block;n#getASCIIPrintsSimbals#0" />
-            <element signature="n#!!block;n#parseIntNumberToString#0" />
-            <element signature="n#!!block;n#parseFloatNumberToString#0" />
-            <element signature="n#!!block;n#parseStringTointNumber#0" />
-            <element signature="n#!!block;n#parseStringToFloatNumber#0" />
-            <element signature="n#!!block;n#checkLengthOfLessElement#0" />
-            <element signature="n#!!block;n#replaceLastThreeSymbals#0" />
+            <element signature="n#!!block;n#replaceLastThreeSymbols#0" />
             <element signature="n#!!block;n#enterSpaces#0" />
             <element signature="n#!!block;n#removeRepeatedSymbols#0" />
             <element signature="n#!!block;n#getWordsQuantity#0" />
@@ -258,14 +323,6 @@
             <element signature="e#8506#10083#0" />
             <element signature="e#10145#12205#0" />
             <element signature="e#12257#13131#0" />
-            <element signature="e#12471#15512#0" />
-            <element signature="e#15573#16725#0" />
-            <element signature="e#16774#17928#0" />
-            <element signature="e#17977#19131#0" />
-            <element signature="e#18832#21873#0" />
-            <element signature="e#21564#22532#0" />
-            <element signature="e#22405#23220#0" />
-            <element signature="e#23538#24525#0" />
           </folding>
         </state>
       </provider>
@@ -284,14 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="332" column="7" lean-forward="true" selection-start-line="306" selection-start-column="4" selection-end-line="332" selection-end-column="7" />
-          <folding>
-            <element signature="e#87#2039#0" />
-            <element signature="e#2090#2969#0" />
-            <element signature="e#3022#3884#0" />
-            <element signature="e#3939#6551#0" />
-            <element signature="e#6605#7715#0" />
-            <element signature="e#7770#11050#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -299,39 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#getEngAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getEngAlphabetLowCaseReverse#0" />
-            <element signature="n#!!block;n#getRusAlphabetUpperCase#0" />
-            <element signature="n#!!block;n#getASCIINmbers#0" />
-            <element signature="n#!!block;n#getASCIIPrintsSimbals#0" />
-            <element signature="n#!!block;n#parseIntNumberToString#0" />
-            <element signature="n#!!block;n#parseFloatNumberToString#0" />
-            <element signature="n#!!block;n#parseStringTointNumber#0" />
-            <element signature="n#!!block;n#parseStringToFloatNumber#0" />
-            <element signature="n#!!block;n#checkLengthOfLessElement#0" />
-            <element signature="n#!!block;n#replaceLastThreeSymbals#0" />
-            <element signature="n#!!block;n#enterSpaces#0" />
-            <element signature="n#!!block;n#removeRepeatedSymbols#0" />
-            <element signature="n#!!block;n#getWordsQuantity#0" />
-            <element signature="n#!!block;n#remove#0" />
-            <element signature="n#!!block;n#reverse#0" />
-            <element signature="n#!!block;n#deleteLastWord#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -349,9 +365,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
+        <state relative-caret-position="23">
           <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="e#63#934#0" />
@@ -364,14 +387,22 @@
             <element signature="e#8506#10083#0" />
             <element signature="e#10145#12205#0" />
             <element signature="e#12257#13131#0" />
-            <element signature="e#12471#15512#0" />
-            <element signature="e#15573#16725#0" />
-            <element signature="e#16774#17928#0" />
-            <element signature="e#17977#19131#0" />
-            <element signature="e#18832#21873#0" />
-            <element signature="e#21564#22532#0" />
-            <element signature="e#22405#23220#0" />
-            <element signature="e#23538#24525#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="n#!!block;n#replaceLastThreeSymbols#0" />
+            <element signature="n#!!block;n#enterSpaces#0" />
+            <element signature="n#!!block;n#removeRepeatedSymbols#0" />
+            <element signature="n#!!block;n#getWordsQuantity#0" />
+            <element signature="n#!!block;n#remove#0" />
+            <element signature="n#!!block;n#reverse#0" />
+            <element signature="n#!!block;n#deleteLastWord#0" />
           </folding>
         </state>
       </provider>

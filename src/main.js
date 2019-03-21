@@ -2,7 +2,7 @@
 function getEngAlphabetUpperCase(){
     let alphabetString = "";
     for (let i = 65; i <= 90; i++){
-        alphabetString +=String.fromCharCode(i);
+        alphabetString += String.fromCharCode(i);
     }
     return alphabetString;
 }
@@ -10,7 +10,7 @@ function getEngAlphabetUpperCase(){
 function getEngAlphabetLowCaseReverse(){
     let alphabetString = "";
     for (let i = 122; i >= 97; i--){
-        alphabetString +=String.fromCharCode(i);
+        alphabetString += String.fromCharCode(i);
     }
     return alphabetString;
 }
@@ -18,7 +18,7 @@ function getEngAlphabetLowCaseReverse(){
 function getRusAlphabetUpperCase(){
     let alphabetString = "";
     for (let i = 1072; i <= 1103; i++){
-        alphabetString +=String.fromCharCode(i);
+        alphabetString += String.fromCharCode(i);
     }
     return alphabetString;
 }
@@ -41,8 +41,7 @@ function getASCIIPrintsSimbals(){
 
 //Second part
 function parseIntNumberToString(digit){
-    let stringDigit = ''+parseInt(digit);
-    return stringDigit;
+    return '' + parseInt(digit);
 }
 
 function parseFloatNumberToString(digit){
@@ -51,29 +50,20 @@ function parseFloatNumberToString(digit){
 }
 
 function parseStringToIntNumber(strDigit){
-    let digit = parseInt(+strDigit);
+    let digit = parseInt(strDigit);
     return digit;
 }
 
 function parseStringToFloatNumber(strDigit){
-    let digit = parseFloat(+strDigit);
+    let digit = parseFloat(strDigit);
     return digit;
 }
 
 //Third part
 function getWordsArray(str) {
-    /*const punctuationMarks = ",.?!;:";
-   for (let i = 0; i < str.length; i++){
-       for (let j = 0; j < punctuationMarks.length; j++){
-           if (str[i] === punctuationMarks[j] && str[i+1] !== " " && (i+1) !== str.length){
-               str = str.slice(0,i) +' '+str.slice(i+1);
-           }
-       }
-   }*/
     str = str.replace(/[,.?!;:]/g,' ');
     str = str.replace(/\s+/g, ' ').trim();
-    str = str.split(' ');
-    return str;
+    return str.split(' ');
 }
 
 function checkLengthOfLessElement(str){
@@ -100,12 +90,10 @@ function replaceLastThreeSymbols(arr, wordLength) {
 function enterSpaces(str){
     const punctuationMarks = ",.?!;:";
     for (let i = 0; i < str.length; i++){
-        for (let j = 0; j < punctuationMarks.length; j++){
-            if (str[i] === punctuationMarks[j] && str[i+1] !== " " && (i+1) !== str.length){
-                let firstPart = str.substring(0,i+1);
-                let secondPart = str.substring(str.length - (str.length-i-1));
-                str =  firstPart+ ' ' + secondPart;
-            }
+        if(punctuationMarks.includes(str[i]) && str[i+1] !== " " && (i+1) !== str.length){
+            const firstPart = str.substring(0,i+1);
+            const secondPart = str.substring(str.length - (str.length-i-1));
+            str =  firstPart+ ' ' + secondPart;
         }
     }
     return str;
@@ -152,12 +140,3 @@ function deleteLastWord(str){
     return remove(oldStr, oldStr.lastIndexOf(str),str.length);
 }
 
-var user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
-console.log(user[0]);
-user = JSON.parse(user);
-console.log(user.name);
-
-
-numbers = JSON.parse(numbers);
-console.log(typeof(numbers));
-console.log(numbers[0]);
